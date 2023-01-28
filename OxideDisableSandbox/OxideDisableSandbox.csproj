@@ -24,11 +24,6 @@
   </PropertyGroup>
   
   <ItemGroup>
-    <Compile Remove="FileManager.cs" />
-    <Compile Remove="TimeArtist.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="OpenMod.Rust.Oxide.Redist" Version="2.0.4765" />
     <PackageReference Include="OpenMod.UnityEngine.Redist" Version="2019.4.10" />
   </ItemGroup>
